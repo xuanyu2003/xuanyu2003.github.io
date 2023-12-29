@@ -9,7 +9,7 @@
 }
 .linear-gradient {
   /* background: linear-gradient(to bottom,#d9dbe0, #ffffff);  */
-  opacity: 0.8; 
+  opacity: 1; 
 }
 
 
@@ -89,7 +89,6 @@ gap:5%;
   top: 0;
   bottom: 0;
   overflow-x: hidden;
-  padding: top 5%;
   /* border: 1px solid #000;  */
   display: flex; 
 }
@@ -106,14 +105,16 @@ gap:5%;
   align-self: start;
   top: 8.9%;
   border-right:2px solid  #6c6c6c3a;
-  /* border-top:2px solid  #6c6c6c3a; */
+  border-top:2px solid  #6c6c6c3a;
+  display: flex;
 }
 .right-div {
   padding: 90px;
-  margin-left: 25%;
+  margin-left: 28%;
   display:block;
   justify-content: center;
   overflow-y: auto;
+  display: flex;
 }
 
 

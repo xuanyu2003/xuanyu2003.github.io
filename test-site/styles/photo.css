@@ -1,6 +1,6 @@
 .linear-gradient {
     /* background: linear-gradient(to bottom,#d9dbe0, #ffffff);  */
-    opacity: 0.8; /* Adjust the opacity value (0.7 here) for transparency */
+    opacity: 1; /* Adjust the opacity value (0.7 here) for transparency */
 }
 .w3-animate-top, .w3-animate-left{
   animation-duration: 1.5s !important;
