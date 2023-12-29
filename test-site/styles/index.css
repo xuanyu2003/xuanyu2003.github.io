@@ -1,0 +1,119 @@
+.w3-animate-top, .w3-animate-left{
+  animation-duration: 1.5s !important;
+}
+.w3-animate-opacity{
+  animation-duration: 2.5s !important;
+}
+.nar-broader{
+  border-bottom:2px solid #6c6c6c3a;
+}
+.linear-gradient {
+  /* background: linear-gradient(to bottom,#d9dbe0, #ffffff);  */
+  opacity: 0.8; 
+}
+
+
+
+
+
+.round-image {
+  border-radius: 50%; /* Makes the image round */
+  width: 100%; /* Set the width as needed */
+  height: 100%; /* Set the height as needed */
+}
+.square-image {
+  width: 200px; /* Set the width as needed */
+  height: 200px; /* Set the height as needed */
+  object-fit: cover; /* Crops the image while maintaining aspect ratio */
+}
+.image{
+  margin-top: 5pc;
+  text-align: center;
+}
+
+
+
+.item-size{
+  font-size: medium;
+}
+.name-size{
+font-size: large;
+}
+.contect-icon{
+text-align: left;
+width: 20px;
+}
+.icon-size{
+font-size: 19.5px
+}
+.contect-text{
+size: 180px;
+float: right;
+text-align: left;
+font-size: medium;
+}
+.contact-container {
+display: flex;
+align-items:start;
+gap:20px; /* Adjust the gap between contact-icon and contact-text */
+}
+
+
+
+
+
+
+
+.blog-div{ 
+  text-align:center;
+  margin-left: 5%;
+  margin-right: 12%;
+  height: fit-content;
+}
+.blog-test{
+  height: fit-content;
+  text-align:left;
+  margin-top: 5pc;
+  word-wrap: break-word;
+  width: 80%;
+
+}
+
+
+
+
+.split{
+  height:100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  /* border: 1px solid #000;  */
+  display: flex; 
+}
+.centered {
+  position: absolute;
+  text-align: center;
+  height: auto;
+}
+.left-div{
+  justify-content: center;
+  text-align: center;
+  width: 25%; 
+  overflow-y: auto;
+  align-self: start;
+  top: 61.6px;
+  border-right:2px solid  #6c6c6c3a;
+}
+.right-div {
+  margin-left: 25%;
+  display:block;
+  justify-content: center;
+  overflow-y: auto;
+}
+
+
+  

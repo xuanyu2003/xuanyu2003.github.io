@@ -1,0 +1,4 @@
+.linear-gradient {
+    background: linear-gradient(to bottom,#d9dbe0, #ffffff); /* 指定渐变的方向和颜色 */
+    opacity: 0.7; /* Adjust the opacity value (0.7 here) for transparency */
+  }
