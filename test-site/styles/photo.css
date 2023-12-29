@@ -12,12 +12,6 @@
   border-bottom:2px solid #6c6c6c3a;
 }
 
-.fifthphoto-size{
-  max-width: 1000px;
-  max-height: 500px;
-
-}
-
 @media (min-width: 1000px) {
     #timeline .demo-card:nth-child(even) .head::after, #timeline .demo-card:nth-child(odd) .head::after {
       position: absolute;
