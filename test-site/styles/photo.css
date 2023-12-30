@@ -72,7 +72,7 @@
   /* Border Box */
   * {
     box-sizing: border-box;
-    border: 2px solid red;  /*ramka*/
+    border: 0px solid red;  /*ramka*/
   }
 
   /* Fonts */
