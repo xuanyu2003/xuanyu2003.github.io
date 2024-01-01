@@ -14,7 +14,7 @@
 
 
 
-
+@media (min-width: 1200px) {
 
 .round-image {
   border-radius: 50%; /* Makes the image round */
@@ -75,18 +75,6 @@ gap:5%;
   width: 100%
 }
 
-
-
-.split{
-  height:100%;
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  bottom: 0;
-  border: 1px solid #000; 
-  display:flex;
-}
 .centered {
   position: absolute;
   text-align: center;
@@ -96,40 +84,95 @@ gap:5%;
   justify-content: center;
   text-align: center;
   width: 25%; 
-  align-self: start;
   top: 8.9%;
   border-right:2px solid  #6c6c6c3a;
   border-top:2px solid  #6c6c6c3a;
   display: flex;
   background-color: bisque;
-
+  z-index: 1;
+  height: 80%;
+  align-self: start;
+  position: fixed;
 }
 .right-div {
   margin-left:25%;
   justify-content: center;
   display: flex;
   background-color: rgb(132, 132, 222);
+  z-index: 1;
+  width: 75%; 
+}
 }
 
-
 @media (max-width: 1200px) {
-  .whole-page{
-    overflow-y:scroll;
-    overflow-x: hidden;
+  .round-image {
+    border-radius: 50%; /* Makes the image round */
+    width: 100%; /* Set the width as needed */
+    height: 100%; /* Set the height as needed */
   }
+  .square-image {
+    width: 55%; /* Set the width as needed */
+    height: 55%; /* Set the height as needed */
+    object-fit: cover; /* Crops the image while maintaining aspect ratio */
+  }
+  .image{
+    margin-top: 15%;
+    text-align: center;
+  }
+  
+
+  .item-size{
+    font-size: medium;
+  }
+  .name-size{
+  font-size: large;
+  }
+  .contect-icon{
+  margin-left: 15%;
+  text-align: left;
+  width: 5%;
+  }
+  .icon-size{
+  font-size: 130%
+  }
+  .contect-text{
+  size: 180px;
+  float: right;
+  text-align: left;
+  font-size: medium;
+  }
+  .contact-container {
+  display: flex;
+  align-items:start;
+  gap:5%;
+  }
+
   .left-div {
     width: 100%; 
     padding-bottom: 20px; 
     justify-content: center;
     text-align: center;
     align-self: start;
+    background-color: bisque;
   }
   .right-div {
     width: 100%; 
-    margin-top: 600px; 
+    margin-top: 100px; 
+    background-color: rgb(132, 132, 222);
   }
   .square-image {
     width: 50%; 
     height: auto;
 }
+
+.blog-div{ 
+  text-align:center;
+  height: fit-content;
+}
+.blog-test{
+  height: fit-content;
+  text-align:left;
+  word-wrap: break-word;
+}
+
 }
