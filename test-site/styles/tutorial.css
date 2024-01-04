@@ -1,0 +1,32 @@
+.linear-gradient {
+    /* background: linear-gradient(to bottom,#d9dbe0, #ffffff);  */
+    opacity: 0.8; /* Adjust the opacity value (0.7 here) for transparency */
+}
+.w3-animate-top, .w3-animate-left{
+  animation-duration: 1.5s !important;
+}
+.w3-animate-opacity{
+  animation-duration: 1s !important;
+}
+.nar-broader{
+  border-bottom:2px solid #6c6c6c3a;
+}
+.fonts-family{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: medium;
+}
+
+
+
+.context-centered{
+
+    margin: auto;
+    width: 70%;
+    /* border: 3px solid green; */
+    padding: 10px;
+
+}
+.left-align{
+    display:inline-block;
+    text-align: left;
+}

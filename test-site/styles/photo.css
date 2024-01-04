@@ -11,6 +11,10 @@
 .nar-broader{
   border-bottom:2px solid #6c6c6c3a;
 }
+.fonts-family{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: medium;
+}
 
 
 @media (min-width: 1000px) {
