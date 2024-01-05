@@ -15,18 +15,64 @@
   font-family: 'Nunito Sans', sans-serif;
   font-size: medium;
 }
+.square-image {
+  width: 80%; 
+  height: 70%; 
+  object-fit: cover;
+}
+
 
 
 
 .context-centered{
-
     margin: auto;
-    width: 70%;
-    /* border: 3px solid green; */
+    width: 65%;
+    border: 3px solid green;
     padding: 10px;
 
 }
 .left-align{
     display:inline-block;
     text-align: left;
+}
+
+
+@media (min-width: 1200px){
+  .context-centered{
+    margin:auto;
+    width: 65%;
+    padding: 10px;
+
+}
+.left-align{
+    display:inline-block;
+    text-align: left;
+}
+.square-image {
+  width: 80%; 
+  height: 70%; 
+  object-fit: cover;
+}
+
+
+
+}
+
+@media (max-width: 1200px) {
+  .context-centered{
+    margin: auto;
+    width: 80%;
+    /* border: 3px solid green; */
+    padding: 10px;
+}
+.left-align{
+    display:inline-block;
+    text-align: left;
+}
+.square-image {
+  width: 80%; 
+  height: 70%; 
+  object-fit: cover;
+}
+
 }

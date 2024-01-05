@@ -1,5 +1,4 @@
-.linear-gradient {
-    /* background: linear-gradient(to bottom,#d9dbe0, #ffffff);  */
+.linear-gradient { 
     opacity: 0.8; /* Adjust the opacity value (0.7 here) for transparency */
 }
 .w3-animate-top, .w3-animate-left{
@@ -175,7 +174,7 @@
       left: 100%;
     }
     #timeline .demo-card:nth-child(odd) .head::before {
-      left: 487.5px;
+      left: 490.5px;
     }
     #timeline .demo-card:nth-child(even) {
       margin-right: 0;
@@ -187,7 +186,7 @@
       right: 100%;
     }
     #timeline .demo-card:nth-child(even) .head::before {  /* dot */
-      right: 483px;
+      right: 486px;
     }
     #timeline .demo-card:nth-child(even) {
       margin-top: -275px;
@@ -197,18 +196,19 @@
     position: relative;
     display: flex;
     align-items: center;
-    color: #000000;
-    font-weight: 20;
+    color:rgb(0, 0, 0)
+    font-weight:20;
   }
   #timeline .demo-card .head .number-box {
     display: inline;
     float: left;
     margin: 15px;
     padding: 10px;
-    font-size: 35px;
+    font-size: 25px;
     line-height: 35px;
     font-weight: 20;
-    /* background: rgba(177, 177, 177, 0.17); */
+    border-radius: 6px;
+    background: rgba(214, 203, 203, 0.17);
   }
   #timeline .demo-card .head h2 {
     text-transform: uppercase;
@@ -244,8 +244,8 @@
 
 
   #timeline .demo-card .body {
-    /* background: #fff; */
-    border: 1px solid rgba(191, 191, 191, 0.4);
+    background: #fff;
+    border: 1px solid rgba(131, 131, 131, 0.4);
     border-top: 0;
     padding: 15px;
     border-radius: 0 0 6px 6px;
@@ -276,7 +276,4 @@
   #timeline .demo-card--step .head::after {
     border-color: #ebebeb;
   }
-  .leader-shadow{
-    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
-  } 
 
