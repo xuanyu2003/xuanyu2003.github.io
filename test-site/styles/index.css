@@ -77,8 +77,6 @@ gap:5%;
 
 
 
-
-
 .blog-div{ 
   text-align:center;
   margin-right: 15%;
@@ -100,9 +98,9 @@ gap:5%;
   justify-content: center;
   text-align: center;
   width: 25%; 
-  top: 8.9%;
+  top: 67px;
+  border-top:1px solid  #6c6c6c3a;
   border-right:2px solid  #6c6c6c3a;
-  border-top:2px solid  #6c6c6c3a;
   display: flex;
   z-index: 1;
   height: 100%;
